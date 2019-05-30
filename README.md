@@ -21,19 +21,19 @@ But this project was made redundant for several reasons:
 
 1. Because it wouldn't help fansubbers that much. Their current organization is enough smoothrunning, they use Dropbox or something similar to pass each other the ASS file.
 
-2. Oh because I forgot to mention, the subtitle file HAS to be an ASS file, as WebVTT styling (which is by the way still in specification and hence poorly-supported on every browser) wouldn't be able to create complex karaokes like ASS. The problem is, you can only read WebVTT files with HTML5 videos and not ASS. Fortunately, there exist several libraries like [AnimeOpening](anime-opening), [Subtitles Octopus](subtitles-octopus) or [libjass](libjass) that allow you to use ASS subtitles on top of a browser video (but it remains not perfect).
+2. Oh because I forgot to mention, the subtitle file HAS to be an ASS file, as WebVTT styling (which is by the way still in specification and hence poorly-supported on every browser) wouldn't be able to create complex karaokes like ASS. The problem is, you can only read WebVTT files with HTML5 videos and not ASS. Fortunately, there exist several libraries like [AnimeOpening][anime-opening], [Subtitles Octopus][subtitles-octopus] or [libjass][libjass] that allow you to use ASS subtitles on top of a browser video (but it remains not perfect).
 
-3. It would be __very__ difficult to recreate an online ASS editor as complete as [Aegisub](aegisub).
+3. It would be __very__ difficult to recreate an online ASS editor as complete as [Aegisub][aegisub].
 
 4. Fansubbers don't need a streaming platform that would use their subtitles files. They mux the subtitles and the video together in a MKV file and share their work using torrents. They use a customizable video player that allow them to control the playback or the filters of the video for instance.
 
-5. There already exist numerous online subtitling tools like [Closed Caption Creator](closed-caption-creator) or [Kapwing's](kapwing) that are far more complete than this one. Projects like [Amara](amara) even integrate collaborativeness (kind of) like I wanted for this project.
+5. There already exist numerous online subtitling tools like [Closed Caption Creator][closed-caption-creator] or [Kapwing's][kapwing] that are far more complete than this one. Projects like [Amara][amara] even integrate collaborativeness (kind of) like I wanted for this project.
 
 If not for the fansubbers, this tool wouldn't be useful to many people, so I decided to suspend it. I had some original ideas for this project though:
 
-- Decentralize the storage of the VTT file using [IPFS](ipfs).
+- Decentralize the storage of the VTT file using [IPFS][ipfs].
 
-- Get the amplitude diagram of the audio track like with Youtube subtitling tool. This would have been made client-side using the [Web Audio API](web-audio-api).
+- Get the amplitude diagram of the audio track like with Youtube subtitling tool. This would have been made client-side using the [Web Audio API][web-audio-api].
 
   [//]: # (Misc)
   [aegisub]: http://www.aegisub.org/
